@@ -29,5 +29,8 @@ The size of the fundus image is *1440 × 960*, *2240 × 1488*, or *2304 × 1536*
 
 `(H,W,C)` (Height, Width, No. of Channels)
 
+<img src="https://github.com/GSAUC3/FYP/blob/master/graphs/hist.png">
+
 ## Sample Image
+<img src="https://github.com/GSAUC3/FYP/blob/master/graphs/sample.tif">
 
