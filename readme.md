@@ -364,4 +364,8 @@ Estimated Total Size (MB): 611.52
 
 |Accuracy|Loss|
 |:---:|:---:|
-|<img src="">|<img src="">|
+|<img src="https://github.com/GSAUC3/FYP/blob/master/images/acc.png">|<img src="https://github.com/GSAUC3/FYP/blob/master/images/loss.png">|
+
+### Confusion Matrix
+
+ <img src="https://github.com/GSAUC3/FYP/blob/master/images/cm.png">
