@@ -57,6 +57,14 @@ The size of the fundus image is *1440 × 960*, *2240 × 1488*, or *2304 × 1536*
 
 `Meddior dataset consists of 4 Diabetic Retinopathy(DR) grade [DR 0, DR 1,DR 2, DR 3]. But in this project DR 0 and DR1 have been merged together to make single DR grade, (DR 0)`
 
+- All the images have been cropped and reshaped to `512 x 512 x 3`
+
+Following augmentation techniques were used to augment the training samples:
+- Top-bottom flip
+- Right-Left flip
+- Rotation 150 deg
+- Rotation 250d deg
+
 So the new dataset becomes: 
 |DR Grade|Description| Number of images 
 |--------|:----:|:-----------------:|
