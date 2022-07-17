@@ -358,14 +358,27 @@ Estimated Total Size (MB): 611.52
 <span style="color:Lime">Training Accuracy and Loss</span>
 
 <span style="color:blue">Validation Accuracy and Loss.</span>
-<!-- diff
-- Training Accuracy and Loss
-+ Validation Accuracy and Loss. -->
 
 |Accuracy|Loss|
 |:---:|:---:|
 |<img src="https://github.com/GSAUC3/FYP/blob/master/images/acc.png">|<img src="https://github.com/GSAUC3/FYP/blob/master/images/loss.png">|
+|Test accuracy|Test Loss|
+|`88.98305084745762`| `0.336738`|
+
 
 ### Confusion Matrix
 
  <img src="https://github.com/GSAUC3/FYP/blob/master/images/cm.png">
+
+
+#### 5 fold cross validation was performed on this dataset, the results are given below
+
+|FOLDS|	ACCURACY ON TEST SET|	TEST LOSS|
+|:---:|:---:|:---:|
+|1	|88.98%|	0.336|
+|2	|86.86%|	0.420|
+|3	|81.77%|	0.599|
+|4	|82.62%|	0.577|
+|5	|84.32%|	0.5767|
+|MEAN	|`84.91%`|	`0.5077`|
+|STANDARD DEVIATION	|2.9925|	0.1069|
